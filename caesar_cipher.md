@@ -159,7 +159,7 @@ while True:
   print()
   print("Хотите попробовать еще раз? \n1) Да \n2) Нет")
   print()
-  yn = input("Выберите цифру: ")
+  yn = input("Выберите цифру: ").strip()
   print()
   if yn.isalpha():
     print("Ошибка: введите цифру!")
